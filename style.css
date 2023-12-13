@@ -30,3 +30,28 @@ table>tbody>tr>*{
     width: 20%;
     aspect-ratio: 1;
 }
+/*Sub Itens*/
+table>tbody>tr>td>button{
+    height: 100%;
+    width: 100%;
+    background-color: darkmagenta;
+    color: white;
+    font-size: 1.3em;
+}
+table>tbody>tr>td>input{
+    height: 100%;
+    width: 100%;
+    font-size: 1.3em;
+    text-align: center;
+}
+/*Hightlighted items*/
+
+table>tbody>tr>td:first-child{
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+}
+table>tbody>tr>th{
+    background-color: indigo;
+    color: white;
+}
